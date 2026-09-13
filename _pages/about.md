@@ -150,7 +150,7 @@ redirect_from:
 <table class="content-card content-card--award">
   <tr>
     <td width="42%">
-      <img src="./images/ca91ad1bc29ece5f3f9f088feffecf7.jpg" width="100%">
+      <img src="./images/smart-car-competition.gif" alt="全国大学生智能车竞赛直立信标组比赛现场" width="100%" loading="lazy">
     </td>
     <td width="58%">
       <strong>第17届全国大学生智能车竞赛 直立信标组 全国一等奖　
