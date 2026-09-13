@@ -310,7 +310,7 @@ h1:before, .anchor:before {
 /* Certificate gallery */
 .certificate-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1.25rem;
     align-items: stretch;
     margin-top: 1.5rem;
@@ -417,10 +417,6 @@ h1:before, .anchor:before {
 
     .project-card__body {
         padding: 1.1rem;
-    }
-
-    .certificate-grid {
-        grid-template-columns: 1fr;
     }
 
 }
