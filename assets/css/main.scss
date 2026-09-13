@@ -107,3 +107,316 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* Project cards */
+.project-list {
+    display: grid;
+    gap: 1.5rem;
+    margin: 1.5rem 0 2.5rem;
+}
+
+.project-card {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+}
+
+.project-card__media {
+    min-height: 320px;
+    overflow: hidden;
+    background: #f4f6f8;
+}
+
+.project-card__media img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.project-card__body {
+    padding: 1.25rem 1.4rem;
+}
+
+.project-card__header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin-bottom: 0.7rem;
+}
+
+.project-card__header h3 {
+    margin: 0;
+    font-size: 1.15em;
+}
+
+.project-role {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.72em;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.project-role--owner {
+    color: #075985;
+    background: #e0f2fe;
+}
+
+.project-role--contributor {
+    color: #166534;
+    background: #dcfce7;
+}
+
+.project-card__actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-card__actions > a {
+    display: inline-flex;
+    align-items: center;
+    height: 24px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.project-card__actions img {
+    display: block;
+    width: auto;
+    height: 24px;
+    margin: 0;
+}
+
+.project-action {
+    gap: 0.35rem;
+    box-sizing: border-box;
+    padding: 0 0.65rem;
+    border-radius: 3px;
+    color: #fff !important;
+    background: #24292f;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.project-action:hover {
+    background: #3b424a;
+}
+
+.project-card__body p {
+    margin: 0 0 0.9rem;
+}
+
+.project-card__body h4 {
+    margin: 0.85rem 0 0.45rem;
+    font-size: 0.95em;
+}
+
+.project-card__body ul {
+    margin: 0;
+    padding-left: 1.25rem;
+}
+
+.project-card__body li + li {
+    margin-top: 0.45rem;
+}
+
+/* Resume content cards */
+.content-card {
+    width: 100%;
+    margin: 1.25rem 0 2rem;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+}
+
+.content-card tr,
+.content-card td {
+    border: 0;
+}
+
+.content-card td {
+    vertical-align: middle;
+}
+
+.content-card td:first-child {
+    width: 40%;
+    padding: 0;
+    overflow: hidden;
+    background: #f4f6f8;
+}
+
+.content-card td:last-child {
+    width: 60%;
+    padding: 1.35rem 1.5rem;
+}
+
+.content-card td:first-child img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    object-fit: cover;
+}
+
+.content-card--academic td:first-child img {
+    object-fit: contain;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.content-card td:last-child > strong:first-child {
+    display: inline-block;
+    margin-bottom: 0.45rem;
+    color: #2f3437;
+    font-size: 1.05em;
+    line-height: 1.45;
+}
+
+.content-card p {
+    margin: 0.5rem 0 0.8rem;
+}
+
+.content-card ul {
+    margin: 0.6rem 0 0;
+    padding-left: 1.25rem;
+}
+
+.content-card li + li {
+    margin-top: 0.45rem;
+}
+
+/* Certificate gallery */
+.certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    align-items: stretch;
+    margin-top: 1.5rem;
+}
+
+.certificate-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0.75rem;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.certificate-card a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 210 / 297;
+    box-sizing: border-box;
+    padding: 0.6rem;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #f4f6f8;
+    line-height: 0;
+}
+
+.certificate-card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: contain;
+}
+
+/* Crop photographed certificates inside the preview only. The popup still opens
+   the untouched source image, so certificate text and seals remain original. */
+.certificate-card--crop a {
+    padding: 0;
+}
+
+.certificate-card--crop img {
+    object-fit: cover;
+}
+
+.certificate-card--yuanmeng img {
+    object-position: center 50%;
+}
+
+.certificate-card--xiaomi img {
+    object-position: center 60%;
+}
+
+.certificate-card figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 3em;
+    margin: 0.75rem 0 0;
+    color: #494e52;
+    font-size: 0.85em;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    .content-card,
+    .content-card tbody,
+    .content-card tr,
+    .content-card td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .content-card td:first-child,
+    .content-card td:last-child {
+        width: 100%;
+    }
+
+    .content-card td:first-child img {
+        height: 220px;
+    }
+
+    .content-card td:last-child {
+        padding: 1.1rem;
+    }
+
+    .project-card {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card__media,
+    .project-card__media img {
+        min-height: 220px;
+        height: 220px;
+    }
+
+    .project-card__body {
+        padding: 1.1rem;
+    }
+
+    .certificate-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

@@ -40,7 +40,7 @@ redirect_from:
 
 # 📝 学术成果
 
-<table>
+<table class="content-card content-card--academic">
   <tr>
     <td width="42%">
       <img src="./images/Network1.png" width="100%">
@@ -83,7 +83,7 @@ redirect_from:
 
 # 💼 实习经历
 
-<table>
+<table class="content-card content-card--internship">
   <tr>
     <td width="42%">
       <img src="./images/real_world2_view.png" width="100%">
@@ -114,7 +114,7 @@ redirect_from:
 
 # 🚀 项目经历
 
-<table>
+<table class="content-card content-card--project">
   <tr>
     <td width="42%">
       <img src="./images/707项目.jpg" width="100%">
@@ -147,7 +147,7 @@ redirect_from:
 
 # 🏆 竞赛获奖
 
-<table>
+<table class="content-card content-card--award">
   <tr>
     <td width="42%">
       <img src="./images/ca91ad1bc29ece5f3f9f088feffecf7.jpg" width="100%">
@@ -181,124 +181,82 @@ redirect_from:
 
 # 💻 开源项目
 
-<br>
+<div class="project-list">
+  <article class="project-card">
+    <div class="project-card__media">
+      <img
+        src="https://raw.githubusercontent.com/canyueduxuan/fisheye2panorama/master/image/demo.gif"
+        alt="fisheye2panorama 运行效果"
+        loading="lazy"
+      >
+    </div>
 
-<div style="display: flex; align-items: flex-start; gap: 30px;">
+    <div class="project-card__body">
+      <div class="project-card__header">
+        <h3>fisheye2panorama</h3>
+        <span class="project-role project-role--owner">所有者</span>
+      </div>
 
-  <!-- 左侧项目图片 -->
-  <div style="width: 400px; flex-shrink: 0;">
-    <img
-      src="https://raw.githubusercontent.com/canyueduxuan/fisheye2panorama/master/image/demo.gif"
-      alt="fisheye2panorama"
-      style="width: 100%; border-radius: 2px;"
-    >
-  </div>
+      <div class="project-card__actions">
+        <a href="https://github.com/canyueduxuan/fisheye2panorama/stargazers" aria-label="查看 fisheye2panorama 的 GitHub Stars">
+          <img src="https://img.shields.io/github/stars/canyueduxuan/fisheye2panorama?style=flat-square&label=Stars&logo=github" alt="GitHub Stars">
+        </a>
+        <a class="project-action" href="https://github.com/canyueduxuan/fisheye2panorama">
+          <i class="fab fa-github" aria-hidden="true"></i>
+          <span>Code</span>
+        </a>
+      </div>
 
-  <!-- 右侧项目介绍 -->
-  <div style="flex: 1;" markdown="1">
+      <p>基于 ROS 与 OpenCV 的实时鱼眼图像展开工具，通过相机标定和几何投影，将鱼眼图像转换为易于观察和处理的 360°柱面全景图，适用于机器人感知、监控和计算机视觉任务。</p>
 
-  **fisheye2panorama**　![Stars](https://img.shields.io/github/stars/canyueduxuan/fisheye2panorama?style=social)　[[code]](https://github.com/canyueduxuan/fisheye2panorama)　所有者
+      <h4>主要功能</h4>
+      <ul>
+        <li><strong>实时图像转换：</strong>支持实时图像流展开，测试环境中单帧处理耗时约 1 ms。</li>
+        <li><strong>ROS 与 OpenCV 集成：</strong>可直接接入机器人、无人机和自动驾驶视觉处理流程。</li>
+        <li><strong>相机标定与几何投影：</strong>支持超过 180° 视场角的 EUCM 相机模型。</li>
+      </ul>
+    </div>
+  </article>
 
-  基于 ROS 与 OpenCV 的实时鱼眼图像展开工具，通过相机标定和几何投影，将鱼眼图像转换为易于观察和处理的 360°柱面全景图，适用于机器人感知、监控和计算机视觉任务。
+  <article class="project-card">
+    <div class="project-card__media">
+      <img
+        src="https://media.githubusercontent.com/media/Field-Robotics-Japan/UnitySensors/master/.image/unity_sensors_ros_assets.gif"
+        alt="UnitySensors 运行效果"
+        loading="lazy"
+      >
+    </div>
 
-  **主要功能：**
+    <div class="project-card__body">
+      <div class="project-card__header">
+        <h3>UnitySensors</h3>
+        <span class="project-role project-role--contributor">贡献者</span>
+      </div>
 
-  - **实时图像转换：** 支持对相机实时图像流进行鱼眼畸变展开，在测试环境中单帧处理耗时约 1 ms。
+      <div class="project-card__actions">
+        <a href="https://github.com/Field-Robotics-Japan/UnitySensors/stargazers" aria-label="查看 UnitySensors 的 GitHub Stars">
+          <img src="https://img.shields.io/github/stars/Field-Robotics-Japan/UnitySensors?style=flat-square&label=Stars&logo=github" alt="GitHub Stars">
+        </a>
+        <a class="project-action" href="https://github.com/Field-Robotics-Japan/UnitySensors">
+          <i class="fab fa-github" aria-hidden="true"></i>
+          <span>Code</span>
+        </a>
+      </div>
 
-  - **ROS 与 OpenCV 集成：** 以 ROS 节点运行，可直接接入机器人、无人机和自动驾驶系统的视觉处理流程。
+      <p>基于 Unity 开发、兼容 ROS/ROS 2 的机器人多传感器仿真组件库。</p>
 
-  - **相机标定与几何投影：** 使用鱼眼相机标定参数完成柱面投影，支持超过 180°视场角的 EUCM 相机模型。
-
-  </div>
-
-</div>
-
-<br>
-
-<div style="display: flex; align-items: flex-start; gap: 30px;">
-
-  <!-- 左侧项目图片 -->
-  <div style="width: 400px; flex-shrink: 0;">
-    <img
-      src="https://media.githubusercontent.com/media/Field-Robotics-Japan/UnitySensors/master/.image/unity_sensors_ros_assets.gif"
-      alt="UnitySensors"
-      style="width: 100%; border-radius: 2px;"
-    >
-  </div>
-
-  <!-- 右侧项目介绍 -->
-  <div style="flex: 1;" markdown="1">
-
-  **UnitySensors**　![Stars](https://img.shields.io/github/stars/Field-Robotics-Japan/UnitySensors?style=social)　[[code]](https://github.com/Field-Robotics-Japan/UnitySensors)　贡献者
-
-  基于Unity开发的高性能、兼容ROS的多种传感器模拟包。
-
-  **主要贡献：**
-
-  - **鱼眼相机模型：** 新增 UCM、Double Sphere、Kannala-Brandt（KB4）和 OCamCalib 模型，使组件能够适配更多鱼眼相机标定结果。
-
-  - **实现 GPU 反投影算法：** 在 Unity Shader 中实现新增模型的像素反投影与模型切换逻辑，将鱼眼图像坐标映射至 Cubemap 采样方向。
-  </div>
-
+      <h4>主要贡献</h4>
+      <ul>
+        <li><strong>鱼眼相机模型：</strong>新增 UCM、Double Sphere、Kannala-Brandt（KB4）和 OCamCalib 模型，适配更多标定结果。</li>
+        <li><strong>GPU 反投影算法：</strong>在 Unity Shader 中实现像素反投影与模型切换，将鱼眼坐标映射至 Cubemap 采样方向。</li>
+      </ul>
+    </div>
+  </article>
 </div>
 
 <span class="anchor" id="certificates"></span>
 
 # 📜 证书与证明
-
-<style>
-  .certificate-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    margin-top: 1.5rem;
-  }
-
-  .certificate-card {
-    margin: 0;
-    padding: 10px;
-    overflow: hidden;
-    border: 1px solid #e5e7eb;
-    border-radius: 6px;
-    background: #fff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  }
-
-  .certificate-card a {
-    display: block;
-    overflow: hidden;
-    border-radius: 4px;
-    background: #f5f5f5;
-    line-height: 0;
-  }
-
-  .certificate-card img {
-    display: block;
-    width: 100%;
-    height: 320px;
-    object-fit: contain;
-  }
-
-  .certificate-card figcaption {
-    margin-top: 10px;
-    color: #494e52;
-    font-size: 0.85em;
-    font-weight: 600;
-    line-height: 1.5;
-    text-align: center;
-  }
-
-  @media (max-width: 520px) {
-    .certificate-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .certificate-card img {
-      height: auto;
-      max-height: 420px;
-    }
-  }
-</style>
 
 <div class="certificate-grid">
   <figure class="certificate-card">
@@ -308,14 +266,14 @@ redirect_from:
     <figcaption>第十七届全国大学生智能汽车竞赛全国一等奖</figcaption>
   </figure>
 
-  <figure class="certificate-card">
+  <figure class="certificate-card certificate-card--crop certificate-card--yuanmeng">
     <a href="./images/certificates/圆梦杯智能硬件设计大赛北部赛区一等奖.jpg">
       <img src="./images/certificates/圆梦杯智能硬件设计大赛北部赛区一等奖.jpg" alt="圆梦杯大学生智能硬件设计大赛北部赛区一等奖证书" loading="lazy">
     </a>
     <figcaption>“圆梦杯”大学生智能硬件设计大赛北部赛区一等奖</figcaption>
   </figure>
 
-  <figure class="certificate-card">
+  <figure class="certificate-card certificate-card--crop certificate-card--xiaomi">
     <a href="./images/certificates/xiaomi-aiot-excellence-award.jpg">
       <img src="./images/certificates/xiaomi-aiot-excellence-award.jpg" alt="小米工作室 AIoT 开发平台创新赛优秀奖证书" loading="lazy">
     </a>
