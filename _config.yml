@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
+title                    : "张元勋"
+description              : "专注于多模态感知、深度学习与机器人自主导航。 "
 repository               : "canyueduxuan/canyueduxuan.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Zhang Yuanxun"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "TianJin College"
-  location         : "Tianjin, China"
+  name             : "张元勋"
+  avatar           : "images/a7d0673c9c24d0ad0e5df5d42febb0a.jpg"
+  bio              : "天津大学硕士研究生"
+  location         : "中国·天津"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "zyx1309348145@canyueduxuan.com"
+  googlescholar    : #"https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  email            : "zyx1309348145@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "canyueduxuan"
   google_plus      :
   keybase          :
   instagram        :
