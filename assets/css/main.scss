@@ -282,6 +282,10 @@ h1:before, .anchor:before {
     box-sizing: border-box;
 }
 
+.content-card--project td:first-child img {
+    object-fit: contain;
+}
+
 .content-card td:last-child > strong:first-child {
     display: inline-block;
     margin-bottom: 0.45rem;

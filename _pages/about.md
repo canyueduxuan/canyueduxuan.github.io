@@ -43,7 +43,7 @@ redirect_from:
 <table class="content-card content-card--academic">
   <tr>
     <td width="42%">
-      <img src="./images/Network1.png" width="100%">
+      <img src="./images/paper.gif" width="100%">
     </td>
     <td width="58%">
       <strong>Learning Diverse Navigation Behaviors from Multimodal Perception for Off-Road Navigation</strong>
@@ -86,7 +86,7 @@ redirect_from:
 <table class="content-card content-card--internship">
   <tr>
     <td width="42%">
-      <img src="./images/real_world2_view.png" width="100%">
+      <img src="./images/Autel.gif" width="100%">
     </td>
     <td width="58%">
       <strong>深圳道通智能航空技术股份有限公司 实习生 2025.9-2026.3</strong>
@@ -117,7 +117,7 @@ redirect_from:
 <table class="content-card content-card--project">
   <tr>
     <td width="42%">
-      <img src="./images/707项目.jpg" width="100%">
+      <img src="./images/707.gif" width="100%">
     </td>
     <td width="58%">
       <strong>707所项目 无人机机载多传感器自主感知与导航系统 参与人
