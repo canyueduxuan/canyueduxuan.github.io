@@ -120,7 +120,7 @@ redirect_from:
       <img src="./images/707.gif" width="100%">
     </td>
     <td width="58%">
-      <strong>707所项目 无人机机载多传感器自主感知与导航系统 参与人
+      <strong>军工项目 无人机机载多传感器自主感知与导航系统 参与人
     2025.12–2026.4</strong>
       <p>
     面向复杂未知及弱GNSS环境，构建单目上视鱼眼与四目环视鱼眼全向感知系统，为无人机定位、规划与避障提供实时空间信息。
@@ -252,38 +252,4 @@ redirect_from:
       </ul>
     </div>
   </article>
-</div>
-
-<span class="anchor" id="certificates"></span>
-
-# 📜 证书与证明
-
-<div class="certificate-grid">
-  <figure class="certificate-card">
-    <a href="./images/certificates/智能车竞赛全国一等奖-1.png">
-      <img src="./images/certificates/智能车竞赛全国一等奖-1.png" alt="第十七届全国大学生智能汽车竞赛全国一等奖证书" loading="lazy">
-    </a>
-    <figcaption>第十七届全国大学生智能汽车竞赛全国一等奖</figcaption>
-  </figure>
-
-  <figure class="certificate-card certificate-card--crop certificate-card--yuanmeng">
-    <a href="./images/certificates/圆梦杯智能硬件设计大赛北部赛区一等奖.jpg">
-      <img src="./images/certificates/圆梦杯智能硬件设计大赛北部赛区一等奖.jpg" alt="圆梦杯大学生智能硬件设计大赛北部赛区一等奖证书" loading="lazy">
-    </a>
-    <figcaption>“圆梦杯”大学生智能硬件设计大赛北部赛区一等奖</figcaption>
-  </figure>
-
-  <figure class="certificate-card certificate-card--crop certificate-card--xiaomi">
-    <a href="./images/certificates/xiaomi-aiot-excellence-award.jpg">
-      <img src="./images/certificates/xiaomi-aiot-excellence-award.jpg" alt="小米工作室 AIoT 开发平台创新赛优秀奖证书" loading="lazy">
-    </a>
-    <figcaption>小米工作室 AIoT 开发平台创新赛优秀奖</figcaption>
-  </figure>
-
-  <figure class="certificate-card">
-    <a href="./images/certificates/autel-robotics-internship-certificate.jpg">
-      <img src="./images/certificates/autel-robotics-internship-certificate.jpg" alt="深圳道通智能航空技术股份有限公司实习证明" loading="lazy">
-    </a>
-    <figcaption>深圳道通智能航空技术股份有限公司实习证明</figcaption>
-  </figure>
 </div>
